@@ -1,0 +1,111 @@
+body {
+    line-height: normal;
+    background-color: #fafafa;
+    font-size: 15px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.avatar-lg {
+    width: 120px;
+    height: 120px;
+}
+
+.avatar-sm {
+    width: 24px;
+    height: 24px;
+}
+
+.logo {
+    font-size: 26px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.post-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.post-skeleton {
+    height: 572.6px;
+}
+
+.nav-search-box {
+    background-color: #f2f2f2;
+    width: calc(100% - 24px);
+}
+
+.nav-search-box input {
+    background-color: inherit;
+}
+
+.nav-search-box input:focus-visible {
+    outline: none;
+}
+
+.react-loading-skeleton {
+    line-height: normal;
+}
+
+@media only screen and (min-width: 576px) {
+
+    .auth-form {
+        width: 350px !important;
+    }
+
+    .post-img {
+        height: 550px;
+    }
+
+    .post-skeleton {
+        height: 722.6px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+    }
+
+    .suggestions {
+        display: block !important;
+    }
+
+    .nav-search-box {
+        position: relative !important;
+        display: flex !important;
+        width: 220px;
+    }
+
+    .nav-search-box-back-icon {
+        display: none;
+    }
+
+    .nav-search-icon {
+        display: none;
+    }
+
+    .post-img {
+        height: 450px;
+    }
+
+    .post-skeleton {
+        height: 622.6px;
+    }
+}
